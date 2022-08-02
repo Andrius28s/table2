@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    border: solid 2px white;
+    color: white;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 100px;
+}
+
+th {
+    background: #86006f;
+    padding: 10px;
+    text-align: left;
+   
+}
+
+tr {
+    background: #f37ecf;
+}
+
+tr:nth-of-type(odd) {
+    background: #af5593;
+}
+
+td {
+    padding: 10px;
+}
